@@ -7,9 +7,10 @@
         display: none;
     }
     #rightAside {
-        width: 15%;
+        width: 9%;
+        float: right;
     }
-    main {
+    #fullInsideMain {
         width: 85%;
     }
 }
@@ -18,10 +19,16 @@
     #rightAside {
         display: none;
     }
-    main {
+     #fullInsideMain {
         width: 100%;
     }
 }
 
+#moneyExchangeInputs {
+    float: left;
+}
 
+#examplesForInputs {
+    float: right;
+}
     

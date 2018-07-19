@@ -68,4 +68,25 @@ window.onload = function() {
         validation3();
         validation4();
     }
+    
+//    document.getElementById("signInButton").addEventListener("click", allValidations);
+//    
+//    function moneyExchange() {
+//
+//        let typeOfTable = document.querySelector('#typeOfTable').value;
+//        let typeOfCurrency = document.querySelector('#typeOfCurrency').value;
+//        let startingDate = document.querySelector('#startingDate').value;
+//        let endingDate = document.querySelector('#endingDate').value;
+//
+//        console.log('typeOfTable');
+//
+//        $.ajax({
+//            url: 'http://api.nbp.pl/api/exchangerates/rates/c/usd/today/?format=json',
+//            success: function(response) {
+//                console.log(response);
+//            }
+//        });
+//    }
+    
+    
 }
