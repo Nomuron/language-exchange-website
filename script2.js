@@ -15,6 +15,7 @@ window.onload = function() {
             url: 'http://api.nbp.pl/api/exchangerates/rates/' + typeOfTable + '/' + typeOfCurrency + '/' + startingDate + '/' + endingDate + '/?format=json',
             success: function(response) {
                 console.log(response);
+                document.getElementById('moneyExchangeResult').innerHTML = response.rates.i.mid;
             }
         });
     }
